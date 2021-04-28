@@ -1,2 +1,2 @@
-# Dynamic-Neural-Regression-Models-for-KT
-Student Performance Prediction Using Dynamic Neural Regression Models
+# Dynamic-Neural--Models-for-Knowledge-Tracing
+Student Performance Prediction Using Dynamic Neural Models
