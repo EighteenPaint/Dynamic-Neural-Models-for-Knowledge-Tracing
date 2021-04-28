@@ -1,2 +1,5 @@
 # Dynamic-Neural-Models-for-Knowledge-Tracing
 Student Performance Prediction Using Dynamic Neural Models
+
+
+We  address  the  problem  of  predicting  the  correctness  of the student’s response on the next exam question based on their  previous  interactions  in  the  course  of  their  learning and evaluation process.  We model the student performance as a dynamic problem and compare the two major classes of dynamic neural architectures for its solution, namely the finite-memory  Time  Delay  Neural  Networks  (TDNN)  and the potentially infinite-memory Recurrent Neural Networks(RNN). Since the next response is a function of the knowledge state of the student and this, in turn, is a function of their previous responses and the skills associated with th eprevious questions, we propose a two-part network architecture.  The first part employs a dynamic neural network (either TDNN or RNN) to trace the student knowledge state.The second part applies on top of the dynamic part and it is  a  multi-layer  feed-forward  network  which  completes  the classification task of predicting the student response based on our estimate of the student knowledge state.
