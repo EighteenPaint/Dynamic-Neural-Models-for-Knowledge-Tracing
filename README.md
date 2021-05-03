@@ -8,6 +8,7 @@ We tested our models on five open-access datasets.
 The Dataset folder contains all the necessary files. For each dataset, there are five train-validation sets for the cross-validation experiments,  a train-test set for the evaluation of the results, a file with skill names and pre-trained embeddings files that represent the skill names with Word2Vec ( vectors of 100dim  and 300dim) and FastText (vectors of 300dim) methods. 
 
 The data is in the following format:
+
 24
 
 8,5,5,5,10,5,12,35,12,13,41,12,13,41,12,13,41,12,35,9,5,8,9,8
@@ -19,8 +20,11 @@ The first line shows the number of student interactions.
 The 2nd line contains the skill IDs to which the student answers.
 The 3rd line contains the student's answers, 1 for the correct answer or 0 for the wrong answer.
 
-A detailed description of our models is given in the article submitted and accepted at the 
+A detailed description of our models is given in the article submitted and accepted at the:
+
 EDM 2021: the 14th International Conference on Educational Data Mining 
 Paris, France, June 29—July 2, 2021 
+
 "Student Performance Prediction Using Dynamic Neural Models"
+
 Marina Delianidi, Konstantinos Diamantaras, George Chrysogonidis and Vasileios Nikiforidis
