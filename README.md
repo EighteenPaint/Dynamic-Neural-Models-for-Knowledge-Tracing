@@ -9,8 +9,11 @@ The Dataset folder contains all the necessary files. For each dataset, there are
 
 The data is in the following format:
 24
+
 8,5,5,5,10,5,12,35,12,13,41,12,13,41,12,13,41,12,35,9,5,8,9,8
+
 0,0,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,1,0,0
+
 
 The first line shows the number of student interactions.
 The 2nd line contains the skill IDs to which the student answers.
